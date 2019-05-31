@@ -1,7 +1,7 @@
 {
     "system": {
         "dataset": "CityPerson",
-        "batch_size": 16,
+        "batch_size": 12,
         "sampling_function": "kp_detection",
 
         "train_split": "trainval",
@@ -19,7 +19,7 @@
         "stepsize": 350000,
         "snapshot": 10000,
 
-        "chunk_sizes": [8, 8],
+        "chunk_sizes": [6, 6],
 
         "data_dir": "/data/zwzhou/Data/CityPerson"
     },
