@@ -54,7 +54,7 @@ class NetworkFactory(object):
             total_params += num_params
         print("total parameters: {}".format(total_params))
 
-        self.fix_layers()  # fix kps and prelayer
+        # self.fix_layers()  # fix kps and prelayer
 
         if system_configs.opt_algo == "adam":
             self.optimizer = torch.optim.Adam(
